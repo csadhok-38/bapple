@@ -1,0 +1,23 @@
+
+$primary:yellow;
+$light:rgb(247, 247, 226);
+$nav-color:rgb(255, 255, 255);
+
+// import variables and function files
+@import'../node_modules/bootstrap/scss/_functions';
+@import'../node_modules/bootstrap/scss/_variables';
+
+$custom-theme-colors:(
+    "altprimary":red,
+    "altlight":rgb(253, 193, 193)
+);
+
+$theme-colors: map-merge($theme-colors,$custom-theme-colors);
+
+
+// import bootstrap
+@import'../node_modules/bootstrap/scss/bootstrap';
+
+#nav-color{
+    background-color: $nav-color;
+}

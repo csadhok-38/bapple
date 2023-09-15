@@ -1,0 +1,16 @@
+:root{
+    --adcol1:purple;
+    --adfont1:16px;
+}
+
+
+.cards_hover:hover{
+    box-shadow: -8px -8px 10px;
+    color: var(--adcol1);
+}
+
+.tooltip-inner
+{
+    background-color:purple;
+    color:white;
+}
